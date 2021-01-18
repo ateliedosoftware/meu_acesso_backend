@@ -78,9 +78,9 @@ ADSUFFIX=cn=Users,DC=atelie,DC=local
 
 ### Request
 
-`POST /search/:user/`
+`POST /search/sAMAccountName/:user/`
 
-    curl -i -H 'Accept: application/json' --request POST http://localhost:3000/search/2019309735/
+    curl -i -H 'Accept: application/json' --request POST http://localhost:3000/search/sAMAccountName/2019309735/
 
 ### Response
 
